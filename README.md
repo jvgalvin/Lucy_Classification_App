@@ -1,5 +1,5 @@
 # Purpose
-The purpose of this personal project was to practice fine tuning a neural network for image classification.
+The purpose of this personal project was to (1) practice fine tuning a neural network for image classification and (2) deploy the model as a Flask app.
 
 # Date
 This project was completed in June 2022.
@@ -18,7 +18,7 @@ The training set consists of 137 images of Lucy and 136 images of random Frenchi
 I chose ResNet50, which is a CNN that was trained on over one million images from the ImageNet database.
 
 # Top Line Summary
-My classifier reaches a peak validation accuracy of 0.95 after 15 epochs. It reaches a test accuracy of 0.96.
+My classifier reaches a peak validation accuracy of 0.95 after 15 epochs. It reaches a test accuracy of 0.96. I used Flask to deploy the model and a basic html template to render the app in a browser window.
 
 # Writeup
 Medium post can be found here: https://johnvgalvin.medium.com/transfer-learning-with-resnet50-lucy-french-bulldog-classifier-146029c8f112
